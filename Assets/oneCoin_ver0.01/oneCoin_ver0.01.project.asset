@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: oneCoin_ver0.01.project
+  m_EditorClassIdentifier: 
+  excelList: []
+  chapterDataList:
+  - chapterName: Boot
+    excelList:
+    - {fileID: 102900000, guid: c3c9e96ed47cefa49933ef3936ac1d40, type: 3}
+    - {fileID: 102900000, guid: dd2c82ae7f3959b48a63221f1eb19083, type: 3}
+    - {fileID: 102900000, guid: f1797a6d5c0ae764c8a1d3a9536422fe, type: 3}
+    excelDir: {fileID: 0}
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 0
+  scenarios: {fileID: 11400000, guid: c44f2a1d0aeaafe45b6c0bda9e656827, type: 2}
+  autoImportType: 1
+  convertPath: 
+  convertVersion: 0
+  isAutoUpdateVersionAfterConvert: 0
+  isAutoConvertOnImport: 0
+  customInportSpriteFolders:
+  - {fileID: 102900000, guid: 43b61dff0ba6f15439832d8b2c06b1c5, type: 3}
+  - {fileID: 102900000, guid: 2bea77f53f5e1f140ac9761cce57b0b9, type: 3}
+  - {fileID: 102900000, guid: ed5915b3347f9844986826121c6a81ef, type: 3}
+  - {fileID: 102900000, guid: f6005df54e5a3b54f92d4dcc28d6f23b, type: 3}
+  - {fileID: 102900000, guid: 2dae590c1fade9a4093593b6ee3761c2, type: 3}
+  customInportAudioFolders:
+  - {fileID: 102900000, guid: 6f9a97fd273372044b9ff32305411330, type: 3}
+  - {fileID: 102900000, guid: cbf9aa00d270c454c8d8172597b4a0e5, type: 3}
+  - {fileID: 102900000, guid: 6c5b4c2ffd3aebb40a878d83319fd3dd, type: 3}
+  - {fileID: 102900000, guid: 623bfb88c54b79d4c8d75df41bb74c9f, type: 3}
+  customInportMovieFolders: []
+  quickImport: 0
+  parseFormula: 0
+  parseNumreic: 0
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500
+  enableCommentOutOnImport: 1
+  recourceDir: {fileID: 0}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: 59c097c14cb5ccd4b84cf85fd8e5d6b5, type: 2}

@@ -1,0 +1,4451 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9856eecfcd6b8df42ac2ebd73cc36dff, type: 3}
+  m_Name: oneCoin_ver0.01 main.book
+  m_EditorClassIdentifier: 
+  importVersion: 0
+  importGridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - WaitType
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 2
+      strings:
+      - '*WillYouSave'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 3
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u3053\u307E\u3067\u306E\u30C7\u30FC\u30BF\u3092\u30BB\u30FC\u30D6\u3057\u307E\u3059\u304B\uFF1F"
+      - Input
+      - 
+      - WindowAll
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 4
+      strings:
+      - Selection
+      - '*Yes'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 5
+      strings:
+      - Selection
+      - '*No'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3044\u3044\u3048"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 6
+      strings:
+      - '*Yes'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 7
+      strings:
+      - SendMessage
+      - ToNext
+      - Chapter2Rouka1
+      - NextMonth
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 8
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 9
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 10
+      strings:
+      - '*No'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 11
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 13
+      strings:
+      - '*NazoNoBasho'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 14
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u3053\u306F\u2026\u2026\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 15
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u306E\u6B4C\u306F\u3001\u78BA\u304B\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 16
+      strings:
+      - SendMessage
+      - ToNext
+      - FirstHomeRoom
+      - NazoNoBasho
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 17
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 18
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 20
+      strings:
+      - '*FirstHomeRoom'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 21
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u3061\u3087\u3063\u3068\u3001\u90AA\u9B54\u3002\n\u3069\u3044\u3066\u304F\u308C\u306A\u3044\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 22
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3001\u3042\u3042\u2026\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 23
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 24
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u305A\u3044\u3076\u3093\u3068\u5F37\u6C17\u306A\u5973\u3060\u306A\u2026\u2026\n\u3000\u5916\u56FD\u306E\u5973\u306F\u307F\u3093\u306A\u3042\u3042\u306A\u306E\u304B\uFF1F\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 26
+      strings:
+      - 
+      - "\u58F0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u30FC\u3044\u3001\u307F\u3093\u306A\u5E2D\u306B\u7740\u3051\u2015"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 28
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 29
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 31
+      strings:
+      - '*StartHomeRoom1'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 32
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u307F\u3093\u306A\u3001\u6E96\u5099\u306F\u3067\u304D\u305F\u304B\uFF1F"
+      - Input
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 33
+      strings:
+      - Selection
+      - '*StartHomeRoom2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 34
+      strings:
+      - Selection
+      - '*Empty'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u307E\u3060"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 36
+      strings:
+      - '*StartHomeRoom2'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 37
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 38
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3088\u3057\u3001\u307E\u305A\u306F\u81EA\u5DF1\u7D39\u4ECB\u3060\uFF01"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 39
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u81EA\u5DF1\u7D39\u4ECB\u30D1\u30FC\u30C8\u3001\u7C21\u5358\u306A\u9078\u629E\u80A2\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 40
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u653E\u8AB2\u5F8C\u30D1\u30FC\u30C8\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 41
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 43
+      strings:
+      - '*Empty'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 45
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 48
+      strings:
+      - '*Chapter0Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 49
+      strings:
+      - Bg
+      - douro
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 50
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 51
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u3084\u3042\u3001\u304A\u304B\u3048\u308A\u3002\u5B66\u6821\u306F\u3069\u3046\u3060\u3063\u305F\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 52
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u30D2\u30B7\u30E3\u30FC\u30E0\u69D8\u2026\u2026\uFF01"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 53
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u4ECA\u65E5\u306F\u30DB\u30FC\u30E0\u30EB\u30FC\u30E0\u304C\u3042\u3063\u305F\u3060\u3051\u3067\u3059\u304B\u3089\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 54
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u7C21\u5358\u306A\u81EA\u5DF1\u7D39\u4ECB\u3092\u3057\u305F\u3060\u3051\u3067\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 55
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u305D\u3046\u304B\u3044\u3002\n\u2026\u2026\u541B\u306B\u306F\u3001\u671F\u5F85\u3057\u3066\u3044\u308B\u3088\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 56
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 57
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3042\u305D\u3046\u3060\u3001\u305D\u308C\u304B\u3089\u541B\u306B\u306F\u8B77\u885B\u3092\u3064\u3051\u3055\u305B\u3066\u3082\u3089\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 58
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u8B77\u885B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 59
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u541B\u306F\u3053\u308C\u304B\u3089\u3001\u6226\u4E89\u306E\u4EE3\u308F\u308A\u3068\u306A\u308B\u30B2\u30FC\u30E0\u3092\u5B66\u3076\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 60
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u6709\u4E8B\u306E\u969B\u306B\u306F\u3001\u571F\u5730\u306E\u5229\u6A29\u3084\u3001\u591A\u984D\u306E\u8CA1\u7523\u2026\u2026\n\u3064\u307E\u308A\u3001\u4EBA\u306E\u4EBA\u751F\u3092\u5DE6\u53F3\u3059\u308B\u7ACB\u5834\u3068\u306A\u308B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 61
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 62
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u982D\u306E\u3044\u3044\u541B\u306A\u3089\u5206\u304B\u308B\u3060\u308D\u3046\u3001\u541B\u306F\u3053\u308C\u304B\u3089\u591A\u304F\u306E\u4EBA\u9593\u304B\u3089\n\u547D\u3092\u72D9\u308F\u308C\u304B\u306D\u306A\u3044\u306E\u3055\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 63
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9\u3001\u5165\u308A\u306A\u3055\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 64
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3088\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 65
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 66
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4E45\u3057\u3076\u308A\u3060\u306A\u30E0\u30AD\u30E0\u3001\uFF11\u5E74\u524D\u306E\u4F5C\u6226\u4EE5\u6765\u304B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 67
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3042\u3042\u3001\u305D\u3046\u3060\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 68
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u541B\u306E\u8B77\u885B\u306F\u30A2\u30D5\u30DE\u30C9\u3060\u3002\n\u5F7C\u306E\u8155\u306F\u3001\u541B\u3082\u3088\u304F\u77E5\u3063\u3066\u3044\u308B\u3060\u308D\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 69
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3048\u3048\u3001\u305D\u3046\u3067\u3059\u306D\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 70
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4E0D\u6E80\u305D\u3046\u3060\u306A\uFF1F\n\u5B89\u5FC3\u3057\u308D\u3001\u6CB9\u65AD\u3057\u3066\u308B\u304A\u524D\u306E\u9996\u3092\u3068\u3063\u305F\u3068\u3053\u308D\u3067\u9762\u767D\u304F\u306A\u3044\u304B\u3089\u3055\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 71
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 72
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u306F\u306F\u3001\u3061\u3083\u3093\u3068\u8B77\u885B\u3057\u306A\u304D\u3083\u30C0\u30E1\u3060\u3088\u3001\u30A2\u30D5\u30DE\u30C9\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 73
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5206\u304B\u3063\u3066\u307E\u3059\u3088\u30FC\u3063\u3068\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 74
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3068\u3044\u3046\u3053\u3068\u306F\u3001\u59B9\u306B\u3082\u8B77\u885B\u3092\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 75
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u305D\u3046\u3060\u306D\u3001\u8003\u3048\u306A\u304D\u3083\u306D\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 76
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u8003\u3048\u306A\u304D\u3083\u2026\u2026\uFF1F\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 77
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3055\u3066\u3001\u4ECA\u65E5\u306F\u3082\u3046\u9045\u3044\u3002\n\u4E8C\u4EBA\u3068\u3082\u3001\u3082\u3046\u5BDD\u306A\u3055\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 78
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044\u3001\u5931\u793C\u3057\u307E\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 79
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u2026\u2026\u2026\u2026\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 80
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 81
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter1Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 82
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 85
+      strings:
+      - '*Chapter1Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 86
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 87
+      strings:
+      - Bg
+      - douro
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 88
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u30E0\u30AD\u30E0\uFF1F\u3000\u4ECA\u307E\u3067\u3069\u3053\u306B\u884C\u3063\u3066\u3044\u305F\u3093\u3060\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 89
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3053\u3053\u3092\u8F9E\u3081\u308B\u3053\u3068\u306B\u306A\u3063\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 90
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u306A\u3093\u3060\u3063\u3066\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 78
+      debugIndex: 91
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5175\u58EB\uFF1C\u30D7\u30EC\u30A4\u30E4\u30FC\uFF1E\u306B\u306A\u308B\u3053\u3068\u306B\u306A\u3063\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 79
+      debugIndex: 92
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3042\u2026\u2026\u306A\u308B\u307B\u3069\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 80
+      debugIndex: 93
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u524D\u2026\u2026\u9A5A\u304B\u306A\u3044\u306E\u304B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 81
+      debugIndex: 94
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u524D\u306F\u4FFA\u305F\u3061\u3068\u306F\u9055\u3063\u3066\u305F\u304B\u3089\u3002\n\u3053\u3093\u306A\u65E5\u304C\u6765\u308B\u3060\u308D\u3046\u3068\u306F\u601D\u3063\u3066\u3044\u305F\u3088\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 82
+      debugIndex: 95
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u305D\u3046\u304B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 83
+      debugIndex: 96
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u30E0\u30AD\u30E0\u3001\u51FA\u7ACB\u306E\u6E96\u5099\u306F\u3067\u304D\u305F\u304B\u3044\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 84
+      debugIndex: 97
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CF\u30DF\u30C9\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 85
+      debugIndex: 98
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u52D8\u9055\u3044\u3057\u306A\u3044\u3067\u304F\u308C\u3002\n\u50D5\u9054\u307F\u3093\u306A\u3001\u541B\u304C\u3044\u306A\u304F\u306A\u308B\u306E\u306F\u5BC2\u3057\u3044\u3093\u3060\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 86
+      debugIndex: 99
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u305F\u3060\u3001\u541B\u306E\u3088\u3046\u306A\u4EBA\u6750\u304C\u3053\u3053\u306B\u3044\u308B\u306E\u306F\u9593\u9055\u3063\u3066\u308B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 87
+      debugIndex: 100
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 88
+      debugIndex: 101
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5143\u6C17\u3067\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 89
+      debugIndex: 102
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u4ECA\u307E\u3067\u304A\u4E16\u8A71\u306B\u306A\u308A\u307E\u3057\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 90
+      debugIndex: 103
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u3002\u541B\u3082\u3001\u3044\u308D\u3044\u308D\u3042\u308B\u3060\u308D\u3046\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 91
+      debugIndex: 104
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 92
+      debugIndex: 105
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u307E\u305F\u3001\u4F1A\u3048\u308B\u3055\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 93
+      debugIndex: 106
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E0\u30AD\u30E0\u3002\u3082\u3046\u3001\u304A\u524D\u306F\u5E30\u3063\u3066\u304F\u308B\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 107
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 108
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4E8C\u5EA6\u3068\u5E30\u3063\u3066\u304F\u308B\u306A\u3002\u3053\u3093\u306A\u5834\u6240\u306B\u306F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 109
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 110
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u524D\u306B\u2026\u2026\u795E\u306E\u6EA2\u308C\u3093\u3070\u304B\u308A\u306E\u3001\u3054\u52A0\u8B77\u304C\u3042\u308A\u307E\u3059\u3088\u3046\u306B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 111
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002\n\u30E9\u30FC\u30E0\u30E9\u30FC\u306B\u3082\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 112
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4FFA\u306F\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 113
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3044\u3084\u3001\u306A\u3093\u3067\u3082\u306A\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 114
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u795E\u306E\u305F\u3081\u306B\u50CD\u3053\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 115
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\uFF01\n\u3042\u3042\u2026\u2026\u305D\u3046\u3060\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 116
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 117
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u6D99\u306E\u304A\u5225\u308C\u4F1A\u306F\u6E08\u3093\u3060\u304B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 118
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3042\u3002\n\u2026\u2026\u884C\u3053\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 119
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044\u306F\u3044\u30FC\u3063\u3068\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 121
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 122
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 123
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 126
+      strings:
+      - '*Chapter2Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 127
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 128
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u56FD\u9023\u8ECD\u3068\u3057\u3066\u6226\u3046\u3053\u3068\u306B\u306A\u308B"
+      - 
+      - 
+      - WindowAll
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 130
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 131
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 134
+      strings:
+      - '*Chapter3Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 135
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 136
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u901F\u5831\u3067\u3059\u3002"
+      - 
+      - 
+      - WindowAll
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 137
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u82B8\u8853\u306E\u90FD\u3068\u3057\u3066\u77E5\u3089\u308C\u308B\u30B7\u30FC\u30E9\u306B\u3001\n\u539F\u5B50\u7206\u5F3E\u304C\u843D\u3068\u3055\u308C\u307E\u3057\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 138
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u73FE\u5728\u6211\u304C\u56FD\u306E\u30C6\u30ED\u7D44\u7E54\u3001\u3007\u3007\u304B\u3089\u72AF\u884C\u58F0\u660E\u304C\u51FA\u3066\u304A\u308A\u2026\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 139
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 140
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 141
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 144
+      strings:
+      - '*Chapter4Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 145
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 146
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CF\u30DF\u30C9\u3068\u306E\u4F1A\u8A71"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 147
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 127
+      debugIndex: 148
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 149
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 129
+      debugIndex: 152
+      strings:
+      - '*Chapter5Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 130
+      debugIndex: 153
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 131
+      debugIndex: 154
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u306E\u52D5\u753B\u3092\u898B\u308B"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 155
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 133
+      debugIndex: 156
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 134
+      debugIndex: 157
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 135
+      debugIndex: 160
+      strings:
+      - '*Chapter6Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 136
+      debugIndex: 161
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 137
+      debugIndex: 162
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u306E\u52D5\u753B\u3092\u898B\u308B"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 138
+      debugIndex: 163
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 139
+      debugIndex: 164
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 140
+      debugIndex: 165
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 141
+      debugIndex: 168
+      strings:
+      - '*Chapter7Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 142
+      debugIndex: 169
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 143
+      debugIndex: 170
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5BBF\u820E\u3092\u8A2A\u308C\u308B\u4E3B\u4EBA\u516C\u3002\u8CA7\u3057\u304F\u306A\u308B\u751F\u6D3B\u3002\u30E9\u30FC\u30E0\u30E9\u30FC\u306B\u82B1\u3092\u6DFB\u3048\u308B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 144
+      debugIndex: 171
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 145
+      debugIndex: 172
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 146
+      debugIndex: 173
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 147
+      debugIndex: 176
+      strings:
+      - '*Chapter8Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 148
+      debugIndex: 177
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 149
+      debugIndex: 178
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u59B9\u3068\u306E\u4F1A\u8A71"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 150
+      debugIndex: 179
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 151
+      debugIndex: 180
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 152
+      debugIndex: 181
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 153
+      debugIndex: 184
+      strings:
+      - '*Chapter9Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 154
+      debugIndex: 185
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 155
+      debugIndex: 186
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CF\u30DF\u30C9\u3068\u306E\u4F1A\u8A71"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 156
+      debugIndex: 187
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 157
+      debugIndex: 188
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 158
+      debugIndex: 189
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 159
+      debugIndex: 192
+      strings:
+      - '*Chapter10Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 160
+      debugIndex: 193
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 161
+      debugIndex: 194
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CB\u30E5\u30FC\u30B9\uFF08\u56FD\u9023\u304C\u30DC\u30FC\u30C9\u30B2\u30FC\u30E0\u3092\u6301\u3061\u304B\u3051\u308B\uFF09\u3001\u59B9\u306B\u7D44\u307E\u306A\u3044\u304B\u3068\u6301\u3061\u639B\u3051\u3089\u308C\u308B"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 162
+      debugIndex: 195
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 163
+      debugIndex: 196
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 164
+      debugIndex: 197
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 165
+      debugIndex: 200
+      strings:
+      - '*Chapter11Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 166
+      debugIndex: 201
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 167
+      debugIndex: 203
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 168
+      debugIndex: 204
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 169
+      debugIndex: 205
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 170
+      debugIndex: 207
+      strings:
+      - '*Chapter12Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 171
+      debugIndex: 208
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 172
+      debugIndex: 210
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 173
+      debugIndex: 211
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 174
+      debugIndex: 212
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/oneCoin_ver0.01/oneCoin_ver0.01 main.xls:Main
+    type: 1
+    textLength: 3686
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 0}
+    entityIndexTbl: 
+    entityDataList: []
+  gridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - WaitType
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - '*WillYouSave'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u3053\u307E\u3067\u306E\u30C7\u30FC\u30BF\u3092\u30BB\u30FC\u30D6\u3057\u307E\u3059\u304B\uFF1F"
+      - Input
+      - 
+      - WindowAll
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - Selection
+      - '*Yes'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - Selection
+      - '*No'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3044\u3044\u3048"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - '*Yes'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - SendMessage
+      - ToNext
+      - Chapter2Rouka1
+      - NextMonth
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - '*No'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - EndScenario
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - '*NazoNoBasho'
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u3053\u306F\u2026\u2026\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3053\u306E\u6B4C\u306F\u3001\u78BA\u304B\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - SendMessage
+      - ToNext
+      - FirstHomeRoom
+      - NazoNoBasho
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - '*FirstHomeRoom'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u3061\u3087\u3063\u3068\u3001\u90AA\u9B54\u3002\n\u3069\u3044\u3066\u304F\u308C\u306A\u3044\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3001\u3042\u3042\u2026\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u305A\u3044\u3076\u3093\u3068\u5F37\u6C17\u306A\u5973\u3060\u306A\u2026\u2026\n\u3000\u5916\u56FD\u306E\u5973\u306F\u307F\u3093\u306A\u3042\u3042\u306A\u306E\u304B\uFF1F\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - 
+      - "\u58F0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u30FC\u3044\u3001\u307F\u3093\u306A\u5E2D\u306B\u7740\u3051\u2015"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - '*StartHomeRoom1'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u307F\u3093\u306A\u3001\u6E96\u5099\u306F\u3067\u304D\u305F\u304B\uFF1F"
+      - Input
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - Selection
+      - '*StartHomeRoom2'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - Selection
+      - '*Empty'
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u307E\u3060"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - '*StartHomeRoom2'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3088\u3057\u3001\u307E\u305A\u306F\u81EA\u5DF1\u7D39\u4ECB\u3060\uFF01"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u81EA\u5DF1\u7D39\u4ECB\u30D1\u30FC\u30C8\u3001\u7C21\u5358\u306A\u9078\u629E\u80A2\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u653E\u8AB2\u5F8C\u30D1\u30FC\u30C8\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - '*Empty'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - '*Chapter0Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - Bg
+      - douro
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u3084\u3042\u3001\u304A\u304B\u3048\u308A\u3002\u5B66\u6821\u306F\u3069\u3046\u3060\u3063\u305F\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u30D2\u30B7\u30E3\u30FC\u30E0\u69D8\u2026\u2026\uFF01"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u4ECA\u65E5\u306F\u30DB\u30FC\u30E0\u30EB\u30FC\u30E0\u304C\u3042\u3063\u305F\u3060\u3051\u3067\u3059\u304B\u3089\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u7C21\u5358\u306A\u81EA\u5DF1\u7D39\u4ECB\u3092\u3057\u305F\u3060\u3051\u3067\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u305D\u3046\u304B\u3044\u3002\n\u2026\u2026\u541B\u306B\u306F\u3001\u671F\u5F85\u3057\u3066\u3044\u308B\u3088\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3042\u305D\u3046\u3060\u3001\u305D\u308C\u304B\u3089\u541B\u306B\u306F\u8B77\u885B\u3092\u3064\u3051\u3055\u305B\u3066\u3082\u3089\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u8B77\u885B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u541B\u306F\u3053\u308C\u304B\u3089\u3001\u6226\u4E89\u306E\u4EE3\u308F\u308A\u3068\u306A\u308B\u30B2\u30FC\u30E0\u3092\u5B66\u3076\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u6709\u4E8B\u306E\u969B\u306B\u306F\u3001\u571F\u5730\u306E\u5229\u6A29\u3084\u3001\u591A\u984D\u306E\u8CA1\u7523\u2026\u2026\n\u3064\u307E\u308A\u3001\u4EBA\u306E\u4EBA\u751F\u3092\u5DE6\u53F3\u3059\u308B\u7ACB\u5834\u3068\u306A\u308B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u982D\u306E\u3044\u3044\u541B\u306A\u3089\u5206\u304B\u308B\u3060\u308D\u3046\u3001\u541B\u306F\u3053\u308C\u304B\u3089\u591A\u304F\u306E\u4EBA\u9593\u304B\u3089\n\u547D\u3092\u72D9\u308F\u308C\u304B\u306D\u306A\u3044\u306E\u3055\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9\u3001\u5165\u308A\u306A\u3055\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3088\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4E45\u3057\u3076\u308A\u3060\u306A\u30E0\u30AD\u30E0\u3001\uFF11\u5E74\u524D\u306E\u4F5C\u6226\u4EE5\u6765\u304B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3042\u3042\u3001\u305D\u3046\u3060\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u541B\u306E\u8B77\u885B\u306F\u30A2\u30D5\u30DE\u30C9\u3060\u3002\n\u5F7C\u306E\u8155\u306F\u3001\u541B\u3082\u3088\u304F\u77E5\u3063\u3066\u3044\u308B\u3060\u308D\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3048\u3048\u3001\u305D\u3046\u3067\u3059\u306D\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4E0D\u6E80\u305D\u3046\u3060\u306A\uFF1F\n\u5B89\u5FC3\u3057\u308D\u3001\u6CB9\u65AD\u3057\u3066\u308B\u304A\u524D\u306E\u9996\u3092\u3068\u3063\u305F\u3068\u3053\u308D\u3067\u9762\u767D\u304F\u306A\u3044\u304B\u3089\u3055\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u306F\u306F\u3001\u3061\u3083\u3093\u3068\u8B77\u885B\u3057\u306A\u304D\u3083\u30C0\u30E1\u3060\u3088\u3001\u30A2\u30D5\u30DE\u30C9\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5206\u304B\u3063\u3066\u307E\u3059\u3088\u30FC\u3063\u3068\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3068\u3044\u3046\u3053\u3068\u306F\u3001\u59B9\u306B\u3082\u8B77\u885B\u3092\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 75
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u305D\u3046\u3060\u306D\u3001\u8003\u3048\u306A\u304D\u3083\u306D\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 76
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u8003\u3048\u306A\u304D\u3083\u2026\u2026\uFF1F\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 77
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3055\u3066\u3001\u4ECA\u65E5\u306F\u3082\u3046\u9045\u3044\u3002\n\u4E8C\u4EBA\u3068\u3082\u3001\u3082\u3046\u5BDD\u306A\u3055\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 78
+      debugIndex: 78
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044\u3001\u5931\u793C\u3057\u307E\u3059\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 79
+      debugIndex: 79
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\uFF08\u2026\u2026\u2026\u2026\uFF09"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 80
+      debugIndex: 80
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 81
+      debugIndex: 81
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter1Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 82
+      debugIndex: 82
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 83
+      debugIndex: 83
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 84
+      debugIndex: 84
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 85
+      debugIndex: 85
+      strings:
+      - '*Chapter1Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 86
+      debugIndex: 86
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 87
+      debugIndex: 87
+      strings:
+      - Bg
+      - douro
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 88
+      debugIndex: 88
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u30E0\u30AD\u30E0\uFF1F\u3000\u4ECA\u307E\u3067\u3069\u3053\u306B\u884C\u3063\u3066\u3044\u305F\u3093\u3060\uFF1F"
+      - 
+      - 
+      - ScenarioWindow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 89
+      debugIndex: 89
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3053\u3053\u3092\u8F9E\u3081\u308B\u3053\u3068\u306B\u306A\u3063\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 90
+      debugIndex: 90
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u306A\u3093\u3060\u3063\u3066\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 91
+      debugIndex: 91
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5175\u58EB\uFF1C\u30D7\u30EC\u30A4\u30E4\u30FC\uFF1E\u306B\u306A\u308B\u3053\u3068\u306B\u306A\u3063\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 92
+      debugIndex: 92
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3042\u2026\u2026\u306A\u308B\u307B\u3069\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 93
+      debugIndex: 93
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u524D\u2026\u2026\u9A5A\u304B\u306A\u3044\u306E\u304B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u524D\u306F\u4FFA\u305F\u3061\u3068\u306F\u9055\u3063\u3066\u305F\u304B\u3089\u3002\n\u3053\u3093\u306A\u65E5\u304C\u6765\u308B\u3060\u308D\u3046\u3068\u306F\u601D\u3063\u3066\u3044\u305F\u3088\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u305D\u3046\u304B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u30E0\u30AD\u30E0\u3001\u51FA\u7ACB\u306E\u6E96\u5099\u306F\u3067\u304D\u305F\u304B\u3044\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CF\u30DF\u30C9\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u52D8\u9055\u3044\u3057\u306A\u3044\u3067\u304F\u308C\u3002\n\u50D5\u9054\u307F\u3093\u306A\u3001\u541B\u304C\u3044\u306A\u304F\u306A\u308B\u306E\u306F\u5BC2\u3057\u3044\u3093\u3060\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u305F\u3060\u3001\u541B\u306E\u3088\u3046\u306A\u4EBA\u6750\u304C\u3053\u3053\u306B\u3044\u308B\u306E\u306F\u9593\u9055\u3063\u3066\u308B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5143\u6C17\u3067\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u4ECA\u307E\u3067\u304A\u4E16\u8A71\u306B\u306A\u308A\u307E\u3057\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings:
+      - 
+      - "\u4EBA\u5F71"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u3002\u541B\u3082\u3001\u3044\u308D\u3044\u308D\u3042\u308B\u3060\u308D\u3046\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u307E\u305F\u3001\u4F1A\u3048\u308B\u3055\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E0\u30AD\u30E0\u3002\u3082\u3046\u3001\u304A\u524D\u306F\u5E30\u3063\u3066\u304F\u308B\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4E8C\u5EA6\u3068\u5E30\u3063\u3066\u304F\u308B\u306A\u3002\u3053\u3093\u306A\u5834\u6240\u306B\u306F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u304A\u524D\u306B\u2026\u2026\u795E\u306E\u6EA2\u308C\u3093\u3070\u304B\u308A\u306E\u3001\u3054\u52A0\u8B77\u304C\u3042\u308A\u307E\u3059\u3088\u3046\u306B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3002\n\u30E9\u30FC\u30E0\u30E9\u30FC\u306B\u3082\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u4FFA\u306F\u2026\u2026\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\u3044\u3084\u3001\u306A\u3093\u3067\u3082\u306A\u3044\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u795E\u306E\u305F\u3081\u306B\u50CD\u3053\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings:
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u2026\u2026\uFF01\n\u3042\u3042\u2026\u2026\u305D\u3046\u3060\u306A\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - 
+      - 
+      - 
+      - 
+      - "\u6D99\u306E\u304A\u5225\u308C\u4F1A\u306F\u6E08\u3093\u3060\u304B\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - 
+      - "\u30E0\u30AD\u30E0"
+      - 
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - 
+      - 
+      - 
+      - 
+      - "\u3042\u3042\u3002\n\u2026\u2026\u884C\u3053\u3046\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - 
+      - "\u30A2\u30D5\u30DE\u30C9"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u306F\u3044\u306F\u3044\u30FC\u3063\u3068\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - '*Chapter2Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u56FD\u9023\u8ECD\u3068\u3057\u3066\u6226\u3046\u3053\u3068\u306B\u306A\u308B"
+      - 
+      - 
+      - WindowAll
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 129
+      debugIndex: 129
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 130
+      debugIndex: 130
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 131
+      debugIndex: 131
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 132
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 133
+      debugIndex: 133
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 134
+      debugIndex: 134
+      strings:
+      - '*Chapter3Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 135
+      debugIndex: 135
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 136
+      debugIndex: 136
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u901F\u5831\u3067\u3059\u3002"
+      - 
+      - 
+      - WindowAll
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 137
+      debugIndex: 137
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u82B8\u8853\u306E\u90FD\u3068\u3057\u3066\u77E5\u3089\u308C\u308B\u30B7\u30FC\u30E9\u306B\u3001\n\u539F\u5B50\u7206\u5F3E\u304C\u843D\u3068\u3055\u308C\u307E\u3057\u305F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 138
+      debugIndex: 138
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u73FE\u5728\u6211\u304C\u56FD\u306E\u30C6\u30ED\u7D44\u7E54\u3001\u3007\u3007\u304B\u3089\u72AF\u884C\u58F0\u660E\u304C\u51FA\u3066\u304A\u308A\u2026\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 139
+      debugIndex: 139
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 140
+      debugIndex: 140
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 141
+      debugIndex: 141
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 142
+      debugIndex: 142
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 143
+      debugIndex: 143
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 144
+      debugIndex: 144
+      strings:
+      - '*Chapter4Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 145
+      debugIndex: 145
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 146
+      debugIndex: 146
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CF\u30DF\u30C9\u3068\u306E\u4F1A\u8A71"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 147
+      debugIndex: 147
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 148
+      debugIndex: 148
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 149
+      debugIndex: 149
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 150
+      debugIndex: 150
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 151
+      debugIndex: 151
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 152
+      debugIndex: 152
+      strings:
+      - '*Chapter5Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 153
+      debugIndex: 153
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 154
+      debugIndex: 154
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u306E\u52D5\u753B\u3092\u898B\u308B"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 155
+      debugIndex: 155
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 156
+      debugIndex: 156
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 157
+      debugIndex: 157
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 158
+      debugIndex: 158
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 159
+      debugIndex: 159
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 160
+      debugIndex: 160
+      strings:
+      - '*Chapter6Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 161
+      debugIndex: 161
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 162
+      debugIndex: 162
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30E9\u30FC\u30E0\u30E9\u30FC\u306E\u52D5\u753B\u3092\u898B\u308B"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 163
+      debugIndex: 163
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 164
+      debugIndex: 164
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 165
+      debugIndex: 165
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 166
+      debugIndex: 166
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 167
+      debugIndex: 167
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 168
+      debugIndex: 168
+      strings:
+      - '*Chapter7Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 169
+      debugIndex: 169
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 170
+      debugIndex: 170
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u5BBF\u820E\u3092\u8A2A\u308C\u308B\u4E3B\u4EBA\u516C\u3002\u8CA7\u3057\u304F\u306A\u308B\u751F\u6D3B\u3002\u30E9\u30FC\u30E0\u30E9\u30FC\u306B\u82B1\u3092\u6DFB\u3048\u308B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 171
+      debugIndex: 171
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 172
+      debugIndex: 172
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 173
+      debugIndex: 173
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 174
+      debugIndex: 174
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 175
+      debugIndex: 175
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 176
+      debugIndex: 176
+      strings:
+      - '*Chapter8Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 177
+      debugIndex: 177
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 178
+      debugIndex: 178
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u59B9\u3068\u306E\u4F1A\u8A71"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 179
+      debugIndex: 179
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 180
+      debugIndex: 180
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 181
+      debugIndex: 181
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 182
+      debugIndex: 182
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 183
+      debugIndex: 183
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 184
+      debugIndex: 184
+      strings:
+      - '*Chapter9Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 185
+      debugIndex: 185
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 186
+      debugIndex: 186
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CF\u30DF\u30C9\u3068\u306E\u4F1A\u8A71"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 187
+      debugIndex: 187
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 188
+      debugIndex: 188
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 189
+      debugIndex: 189
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 190
+      debugIndex: 190
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 191
+      debugIndex: 191
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 192
+      debugIndex: 192
+      strings:
+      - '*Chapter10Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 193
+      debugIndex: 193
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 194
+      debugIndex: 194
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30CB\u30E5\u30FC\u30B9\uFF08\u56FD\u9023\u304C\u30DC\u30FC\u30C9\u30B2\u30FC\u30E0\u3092\u6301\u3061\u304B\u3051\u308B\uFF09\u3001\u59B9\u306B\u7D44\u307E\u306A\u3044\u304B\u3068\u6301\u3061\u639B\u3051\u3089\u308C\u308B"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 195
+      debugIndex: 195
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 196
+      debugIndex: 196
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 197
+      debugIndex: 197
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 198
+      debugIndex: 198
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 199
+      debugIndex: 199
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 200
+      debugIndex: 200
+      strings:
+      - '*Chapter11Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 201
+      debugIndex: 201
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 202
+      debugIndex: 202
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 203
+      debugIndex: 203
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 204
+      debugIndex: 204
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 205
+      debugIndex: 205
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 206
+      debugIndex: 206
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 207
+      debugIndex: 207
+      strings:
+      - '*Chapter12Last'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 208
+      debugIndex: 208
+      strings:
+      - SendMessage
+      - ControllerOff
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 209
+      debugIndex: 209
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 210
+      debugIndex: 210
+      strings:
+      - SendMessage
+      - ToNext
+      - NextMonth
+      - Chapter2Rouka1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 211
+      debugIndex: 211
+      strings:
+      - SendMessage
+      - ControllerOn
+      - Player
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 212
+      debugIndex: 212
+      strings:
+      - EndScenario
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/oneCoin_ver0.01/oneCoin_ver0.01 main.xls:Main
+    type: 1
+    textLength: 3686
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 0}

@@ -1,0 +1,4 @@
+repository "oneCoinProject@oneCoinProject@cloud"
+  path "/"
+    smartbranch "/main/task001" 
+     
